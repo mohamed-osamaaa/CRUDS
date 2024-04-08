@@ -159,12 +159,11 @@ function getSearchMood(id) {
     let search = document.getElementById('search');
     if (id == 'searchTitle') {
         searchMood = 'title';
-        search.placeholder = 'Search By Title';
     }
     else {
         searchMood = 'category';
-        search.placeholder = 'Search By category';
     }
+    search.placeholder = 'Search By ' + searchMood;
     search.focus();
     search.value = '';
     showData();
