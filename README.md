@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/7dc7b489-f563-4203-b5a0-cefa78554a0e
 
 
 
-```markdown
+
 # CRUDS - Product Management App
 
 A web-based app for managing products built with JavaScript, HTML, and CSS. Users can add, update, delete, and search products by title or category. The app calculates the total price (price, taxes, ads, discounts) and stores product data in `localStorage`.
